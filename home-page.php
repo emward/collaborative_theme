@@ -20,10 +20,8 @@ Template Name: Homepage
 
 get_header(); ?>
 
-<body id="homepage">
 	<div id="primary" class="content-area-homepage">
 		<div id="content" class="site-content" role="main">
-		
 			<div id="hero">
 			<img src="<?php the_field('hero_image'); ?>" alt="MMT Building" />
 			</div>
@@ -60,5 +58,5 @@ get_header(); ?>
 
 	</div><!-- #content .site-content -->
 </div><!-- #primary .content-area -->
-</body>
+
 <?php get_footer(); ?>
