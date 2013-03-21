@@ -99,6 +99,7 @@ html	{
 	height: 687px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: -22px;
 }
 
 body	{
@@ -158,15 +159,6 @@ p	{
 	margin: 0;
 	display: inline;
 	padding-left: 5px;
-}
-
-footer	{
-	clear: both;
-	position: absolute;
-	width: 324px;
-	height: 23px;
-	margin-left: 297px;
-	margin-top: 600px;
 }
 
 body,
@@ -588,7 +580,7 @@ a:active {
 
 .content-area-homepage	{
 	background: url('images/tattoo-man-960x678px.png') no-repeat;
-	background-color:rgb(197,164,133,0.9);
+	background-color: #C5A485;
 	width: 960px;
 	height: 678px;
 	margin: auto;
@@ -629,6 +621,14 @@ a:active {
 	float: right;
 	width: 165px;
 	padding-top: 10px;
+}
+
+#homepage-footer	{
+	position: absolute;
+	margin-left: 307px;
+	margin-top: 625px;
+	width: 324px;
+	height: 23px;
 }
 
 /* =Artist Page Content
@@ -839,7 +839,7 @@ a:active {
 #content-footer	{
 	position: absolute;
 	margin-left: 297px;
-	margin-top: 425px;
+	margin-top: 435px;
 	width: 324px;
 	height: 23px;
 }

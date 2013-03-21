@@ -47,6 +47,10 @@ get_header(); ?>
 			<li><a href="http://www.twitter.com"><img id="twitter" src="<?php bloginfo( 'stylesheet_directory' );?>/images/twitter-26x21px.png" alt="Twitter" /></a></li>
 			</ul>
 		</div>
+		
+		<div id="homepage-footer">
+			<?php the_field('homepage_footer'); ?>
+		</div>
 
 	<div id="homepage-text">
 		<?php while ( have_posts() ) : the_post(); ?>

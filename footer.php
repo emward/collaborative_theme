@@ -14,7 +14,6 @@
 	<footer id="colophon" class="site-footer clearfix" role="contentinfo">
 		<div class="site-info">
 			<footer id="site-footer" role="contentinfo">
-			<p>Copyright &copy; 2013 Elise Murphy, MCAD Student</p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon .site-footer -->
 </div><!-- #page .hfeed .site -->
